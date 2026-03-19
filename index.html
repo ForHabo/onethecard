@@ -66,7 +66,7 @@ body{background:var(--bg);color:var(--text);font-family:'Noto Sans KR',sans-seri
 .panel-title.plus-title{color:var(--accent4)}
 .benefit-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:6px}
 @media(min-width:500px){.benefit-grid{grid-template-columns:repeat(3,1fr)}}
-/* BENEFIT ITEMS with slider */
+/* BENEFIT ITEMS */
 .benefit-item{background:var(--surface2);border:1px solid var(--border);border-radius:7px;padding:8px 8px 6px;cursor:pointer;transition:all 0.15s;position:relative}
 .benefit-item:hover{border-color:var(--accent1);z-index:10}
 .benefit-item.selected{border-color:var(--accent1);background:rgba(123,94,167,0.1)}
@@ -146,7 +146,7 @@ body{background:var(--bg);color:var(--text);font-family:'Noto Sans KR',sans-seri
 <div class="header">
   <div class="header-inner">
     <h1>원더카드 2.0 혜택 설계 계산기</h1>
-    <p>상품설명서(2025.06) 기준 · 슬라이더로 할인율 조절 · hover 시 가맹점 확인</p>
+    <p>상품설명서(2025.06) 기준 · ± 버튼으로 할인율 조절 · hover 시 가맹점 확인</p>
   </div>
 </div>
 <div class="main">
@@ -187,7 +187,7 @@ body{background:var(--bg);color:var(--text);font-family:'Noto Sans KR',sans-seri
     </div>
   </div>
   <div class="section">
-    <div class="section-title">STEP 3 &nbsp;서비스 영역 <span style="font-size:9px;color:var(--text3);margin-left:4px;font-weight:400;letter-spacing:0">클릭 활성 · 슬라이더로 할인율 조절 · hover 시 가맹점 확인</span></div>
+    <div class="section-title">STEP 3 &nbsp;서비스 영역 <span style="font-size:9px;color:var(--text3);margin-left:4px;font-weight:400;letter-spacing:0">클릭 활성 · ± 버튼으로 할인율 조절 · hover 시 가맹점 확인</span></div>
     <div class="two-col">
       <div class="benefit-panel"><div class="panel-title">기본서비스</div><div class="benefit-grid" id="grid-base"></div></div>
       <div class="benefit-panel plus-panel" id="plus-panel" style="opacity:0.35;pointer-events:none"><div class="panel-title plus-title">혜택플러스 <span style="font-size:9px;font-weight:400;color:var(--text3)">(별도 크레딧)</span></div><div class="benefit-grid" id="grid-plus"></div></div>
